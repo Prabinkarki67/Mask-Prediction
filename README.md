@@ -28,7 +28,7 @@ Each folder contains two classes:
 - `with_mask` – Images of people wearing masks  
 - `without_mask` – Images of people not wearing masks
 ## Dataset Source
-[Kaggle - Face Mask Detection](https://www.kaggle.com/datasets/omkargurav/face-mask-detection)  
+[Kaggle - Face Mask Detection]( https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-images-dataset)  
 
 *(Download and unzip the dataset into your project directory.)*
 ## Project Folder Structure
