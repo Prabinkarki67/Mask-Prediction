@@ -1,0 +1,80 @@
+# ============================================
+# FACE MASK DETECTION PROJECT
+# ============================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# TensorFlow/Keras
+checkpoints/
+logs/
+tensorboard/
+*.index
+*.data-*
+
+# PyTorch (if using)
+*.pth
+*.pt
+*.bin
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Dataset - CHECK SIZE FIRST!
+# If > 2GB, uncomment next line:
+# Face Mask Dataset/
+
+# Large files (we're using LFS for .h5, but exclude other temp files)
+*.hdf5
+*.model
+*.weights
+
+# Training outputs
+events.*
+*.log
+*.tflite
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dataset (check size first)
+# Face Mask Dataset/
