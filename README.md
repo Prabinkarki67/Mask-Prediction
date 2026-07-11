@@ -16,7 +16,6 @@ A simple Convolutional Neural Network (CNN) project to detect whether a person i
 
 
 ## Dataset
-
 The project uses the **Face Mask Detection** dataset from Kaggle.  
 The dataset is structured into three folders:
 `Train/`
