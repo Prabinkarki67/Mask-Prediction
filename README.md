@@ -32,27 +32,47 @@ Each folder contains two classes:
 
 *(Download and unzip the dataset into your project directory.)*
 ## Project Folder Structure
+
+```text
 Face-Mask-Detection/
 │
-├─ dataset/
-│  ├─ Train/
-│  │  ├─ with_mask/
-│  │  └─ without_mask/
-│  ├─ Validation/
-│  │  ├─ with_mask/
-│  │  └─ without_mask/
-│  └─ Test/
-│     ├─ with_mask/
-│     └─ without_mask/
+├── images/
 │
-├─ model/
-│  └─ face_mask_model.h5
+├── model/
+│   └── maskDetector.h5
 │
-├─ train.py
-├─ evaluate.py
-├─ detect_mask_webcam.py  # optional real-time detection
-└─ README.md
+├── notebook/
+│   └── code.ipynb
+│
+├── DATASET_README.md
+├── README.md
+├── .gitignore
+└── .gitattributes
+```
+### Dataset
 
+The dataset is **not included** in this repository because of its size.
+
+Download it from Kaggle:
+
+🔗 https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-images-dataset
+
+After downloading and extracting it, place the folders as follows:
+
+```text
+dataset/
+├── Train/
+│   ├── with_mask/
+│   └── without_mask/
+├── Validation/
+│   ├── with_mask/
+│   └── without_mask/
+└── Test/
+    ├── with_mask/
+    └── without_mask/
+```
+
+Refer to `DATASET_README.md` for more details.
 ## Requirements
 
 - Python 3.x  
