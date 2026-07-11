@@ -72,6 +72,12 @@ Clone the repo:
 ```bash
 git clone https://github.com/yourusername/Face-Mask-Detection.git
 cd Face-Mask-Detection
+
+```
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
 ```
 ## Usage Instructions
 
