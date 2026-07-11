@@ -14,22 +14,6 @@ A simple Convolutional Neural Network (CNN) project to detect whether a person i
 
 > Users should open this notebook first and run all cells sequentially.
 
-
-## Dataset
-The project uses the **Face Mask Detection** dataset from Kaggle.  
-The dataset is structured into three folders:
-`Train/`
-`Test/`
-`Validation/`
-
-Each folder contains two classes:
-
-- `with_mask` – Images of people wearing masks  
-- `without_mask` – Images of people not wearing masks
-## Dataset Source
-[Kaggle - Face Mask Detection]( https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-images-dataset)  
-
-*(Download and unzip the dataset into your project directory.)*
 ## Project Folder Structure
 
 ```text
@@ -55,6 +39,7 @@ The dataset is **not included** in this repository because of its size.
 Download it from Kaggle:
 
 🔗 https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-images-dataset
+*(Download and unzip the dataset into your project directory.)*
 
 After downloading and extracting it, place the folders as follows:
 
@@ -104,18 +89,23 @@ cd Face-Mask-Detection
 - Press 'q' to quit
 - 
 ## CNN Architecture
+```text
 Input: (256, 256, 3)
+│
 ├── Conv2D (32 filters, 3×3) → ReLU
 ├── MaxPooling2D (2×2)
+│
 ├── Conv2D (64 filters, 3×3) → ReLU
 ├── MaxPooling2D (2×2)
+│
 ├── Conv2D (128 filters, 3×3) → ReLU
 ├── MaxPooling2D (2×2)
+│
 ├── Flatten
 ├── Dense (128 units) → ReLU
 ├── Dense (64 units) → ReLU
 └── Dense (1 unit) → Sigmoid
-
+```
 ### 🔧 Training Configuration
 - **Optimizer**: Adam
 - **Loss Function**: Binary Crossentropy
